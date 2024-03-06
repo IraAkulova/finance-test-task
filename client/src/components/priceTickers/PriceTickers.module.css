@@ -1,0 +1,53 @@
+.tickersContainer {
+    display: block;
+    padding: 100px 30px;
+}
+
+.tickersHeader {
+    margin-top: 100px;
+    margin-left: 40%;
+    width: 242px;
+    font-size: 34px;
+    text-align: center;
+}
+
+.tickers {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ticker {
+    padding: 10px 0px;
+    width: 200px;
+}
+
+.tickerTitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: inherit;
+    text-align: center;
+}
+
+.tickerDesc {
+    font-size: 12px;
+    line-height: 2;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .tickerTitle {
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: inherit;
+    }
+
+    .tickerDesc {
+        font-size: 14px;
+        line-height: 2;
+    }
+}

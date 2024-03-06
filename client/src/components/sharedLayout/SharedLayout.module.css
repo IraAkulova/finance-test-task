@@ -1,0 +1,37 @@
+.sharedHeader {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: center;
+    top: 0;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.link{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 0;
+    height: 100px;        
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
